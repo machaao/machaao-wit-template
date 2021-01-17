@@ -1,0 +1,4 @@
+Flask==1.1.2
+machaao==0.2.0
+python-dotenv==0.15.0
+wit==6.0.0
