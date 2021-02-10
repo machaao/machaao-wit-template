@@ -24,17 +24,8 @@ MESSENGERX_BASE_URL=https://ganglia-dev.machaao.com
 
 4. Running Server
 ```bash
-flask run
+machaao run -p 5000 -t <YOU-MESSENGERX-API-KEY>
 ```
-
-5. Running Tunnel (For Debugging)
-```bash
-machaao tunnel -p 5000 -t <YOU-MESSENGERX-API-KEY>
-```
-
-6. Updating Webhook Url
-
-Your Webhook Url: ```https://<chatbot-name>.tunnel.messengerx.io/machaao/incoming```
 
 ### Contact Us
 
